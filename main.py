@@ -22,7 +22,8 @@ def main():
     
     while True:
         fetch_api.get_json()
-        print("JSON FETCHED")
+        time.sleep(1)
+        print("Fetched")
         match_notifier.notify_matches()
         time.sleep(720)
 

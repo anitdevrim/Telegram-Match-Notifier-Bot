@@ -27,11 +27,10 @@ class GetJsonFromApi():
         if response.status_code == 200:
             json_data = response.json()
             
-            file_path = "data.json"
-            with open(file_path, 'w') as json_file:
+            with open('data.json', 'w') as json_file:
                 json.dump(json_data, json_file)
             
-            print("Data has been written to", file_path)
+            print("Data has been written to data.json")
         else:
             print("Failed to retrieve data. Status code:", response.status_code)
 

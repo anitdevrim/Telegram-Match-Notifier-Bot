@@ -24,6 +24,7 @@ services:
       - db
     volumes:
       - .:/app
+      - ./data.json:/app/data.json
 
 volumes:
   db_data:
