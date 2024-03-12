@@ -23,8 +23,7 @@ services:
     depends_on:
       - db
     volumes:
-      - ./src:/app/src
-      - ./home/user/Match-Notifier-Telegram-Bot/data.json:/app/data.json
+      - .:/app
 
 volumes:
   db_data:
