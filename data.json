@@ -2,7 +2,7 @@
   "get": "fixtures",
   "parameters": { "date": "2024-03-13" },
   "errors": [],
-  "results": 220,
+  "results": 230,
   "paging": { "current": 1, "total": 1 },
   "response": [
     {
@@ -12,13 +12,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T00:00:00+00:00",
         "timestamp": 1710288000,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710288000, "second": 1710291600 },
         "venue": {
           "id": 2655,
           "name": "Estadio Ol\u00edmpico Patria",
           "city": "Sucre"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 344,
@@ -34,19 +34,19 @@
           "id": 15702,
           "name": "Independiente Petrolero",
           "logo": "https://media.api-sports.io/football/teams/15702.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 17762,
           "name": "Universitario de Vinto",
           "logo": "https://media.api-sports.io/football/teams/17762.png",
-          "winner": null
+          "winner": false
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 1, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 1, "away": 0 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -58,9 +58,9 @@
         "timezone": "UTC",
         "date": "2024-03-13T00:00:00+00:00",
         "timestamp": 1710288000,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710288000, "second": 1710291600 },
         "venue": { "id": null, "name": null, "city": null },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 243,
@@ -85,10 +85,10 @@
           "winner": null
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 1, "away": 1 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 1, "away": 1 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -142,13 +142,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T00:05:00+00:00",
         "timestamp": 1710288300,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710288300, "second": 1710291900 },
         "venue": {
           "id": 370,
           "name": "Estadio Guillermo Plazas Alcid",
           "city": "Neiva"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 240,
@@ -164,19 +164,19 @@
           "id": 1130,
           "name": "Huila",
           "logo": "https://media.api-sports.io/football/teams/1130.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 1470,
           "name": "Cucuta",
           "logo": "https://media.api-sports.io/football/teams/1470.png",
-          "winner": null
+          "winner": false
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 2, "away": 1 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 2, "away": 1 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -229,64 +229,18 @@
     },
     {
       "fixture": {
-        "id": 1160362,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2024-03-13T00:10:00+00:00",
-        "timestamp": 1710288600,
-        "periods": { "first": null, "second": null },
-        "venue": {
-          "id": 87,
-          "name": "Estadio Deportivo Laferrere",
-          "city": "Gregorio de Laferrere, Provincia de Buenos Aires"
-        },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
-      },
-      "league": {
-        "id": 131,
-        "name": "Primera B Metropolitana",
-        "country": "Argentina",
-        "logo": "https://media.api-sports.io/football/leagues/131.png",
-        "flag": "https://media.api-sports.io/flags/ar.svg",
-        "season": 2024,
-        "round": "Apertura - 7"
-      },
-      "teams": {
-        "home": {
-          "id": 1924,
-          "name": "Deportivo Laferrere",
-          "logo": "https://media.api-sports.io/football/teams/1924.png",
-          "winner": null
-        },
-        "away": {
-          "id": 8388,
-          "name": "Sportivo Italiano",
-          "logo": "https://media.api-sports.io/football/teams/8388.png",
-          "winner": null
-        }
-      },
-      "goals": { "home": null, "away": null },
-      "score": {
-        "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
-        "extratime": { "home": null, "away": null },
-        "penalty": { "home": null, "away": null }
-      }
-    },
-    {
-      "fixture": {
         "id": 1158598,
         "referee": "Jorge Balino, Argentina",
         "timezone": "UTC",
         "date": "2024-03-13T00:15:00+00:00",
         "timestamp": 1710288900,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710288900, "second": 1710292500 },
         "venue": {
           "id": 2997,
           "name": "Estadio Alfredo Terrera",
           "city": "Santiago del Estero, Provincia de Santiago del Est"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 1032,
@@ -311,10 +265,10 @@
           "winner": null
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 2, "away": 2 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 2, "away": 2 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -322,17 +276,17 @@
     {
       "fixture": {
         "id": 1175125,
-        "referee": null,
+        "referee": "Bryan Lopez, Guatemala",
         "timezone": "UTC",
         "date": "2024-03-13T00:15:00+00:00",
         "timestamp": 1710288900,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710288900, "second": 1710292500 },
         "venue": {
           "id": 1081,
           "name": "Estadio Hidalgo",
           "city": "Pachuca de Soto"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 16,
@@ -348,19 +302,19 @@
           "id": 2292,
           "name": "Pachuca",
           "logo": "https://media.api-sports.io/football/teams/2292.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 1599,
           "name": "Philadelphia Union",
           "logo": "https://media.api-sports.io/football/teams/1599.png",
-          "winner": null
+          "winner": false
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 6, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 6, "away": 0 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -368,17 +322,17 @@
     {
       "fixture": {
         "id": 1178192,
-        "referee": null,
+        "referee": "A. Matonte",
         "timezone": "UTC",
         "date": "2024-03-13T00:30:00+00:00",
         "timestamp": 1710289800,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710289800, "second": 1710293400 },
         "venue": {
           "id": 337,
           "name": "Estadio El Teniente",
           "city": "Rancagua"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "PEN", "elapsed": 120 }
       },
       "league": {
         "id": 13,
@@ -394,21 +348,21 @@
           "id": 2318,
           "name": "Palestino",
           "logo": "https://media.api-sports.io/football/teams/2318.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 1175,
           "name": "Nacional Asuncion",
           "logo": "https://media.api-sports.io/football/teams/1175.png",
-          "winner": null
+          "winner": false
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 1, "away": 3 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
-        "extratime": { "home": null, "away": null },
-        "penalty": { "home": null, "away": null }
+        "fulltime": { "home": 1, "away": 3 },
+        "extratime": { "home": 0, "away": 0 },
+        "penalty": { "home": 3, "away": 1 }
       }
     },
     {
@@ -418,13 +372,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T00:30:00+00:00",
         "timestamp": 1710289800,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710289800, "second": 1710293400 },
         "venue": {
           "id": 205,
           "name": "Est\u00e1dio Maria Lamas Farache",
           "city": "Natal, Rio Grande do Norte"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "PEN", "elapsed": 120 }
       },
       "league": {
         "id": 73,
@@ -440,21 +394,21 @@
           "id": 754,
           "name": "ABC",
           "logo": "https://media.api-sports.io/football/teams/754.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 1211,
           "name": "Brusque",
           "logo": "https://media.api-sports.io/football/teams/1211.png",
-          "winner": null
+          "winner": true
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 1, "away": 1 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
-        "extratime": { "home": null, "away": null },
-        "penalty": { "home": null, "away": null }
+        "fulltime": { "home": 1, "away": 1 },
+        "extratime": { "home": 0, "away": 0 },
+        "penalty": { "home": 4, "away": 5 }
       }
     },
     {
@@ -464,13 +418,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T00:30:00+00:00",
         "timestamp": 1710289800,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710289800, "second": 1710293400 },
         "venue": {
           "id": 5625,
           "name": "Est\u00e1dio Francisco St\u00e9dile",
           "city": "Caxias do Sul, Rio Grande do Sul"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "PEN", "elapsed": 120 }
       },
       "league": {
         "id": 73,
@@ -486,37 +440,37 @@
           "id": 7770,
           "name": "Caxias",
           "logo": "https://media.api-sports.io/football/teams/7770.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 118,
           "name": "Bahia",
           "logo": "https://media.api-sports.io/football/teams/118.png",
-          "winner": null
+          "winner": true
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 2, "away": 2 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
-        "extratime": { "home": null, "away": null },
-        "penalty": { "home": null, "away": null }
+        "fulltime": { "home": 2, "away": 2 },
+        "extratime": { "home": 0, "away": 0 },
+        "penalty": { "home": 5, "away": 6 }
       }
     },
     {
       "fixture": {
         "id": 1152403,
-        "referee": null,
+        "referee": "H. Solorio Arreola",
         "timezone": "UTC",
         "date": "2024-03-13T01:05:00+00:00",
         "timestamp": 1710291900,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710291900, "second": 1710295500 },
         "venue": {
           "id": 11628,
           "name": "Estadio Tlahuicole",
           "city": "Tlaxcala"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 263,
@@ -532,19 +486,19 @@
           "id": 14280,
           "name": "Tlaxcala",
           "logo": "https://media.api-sports.io/football/teams/14280.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 14278,
           "name": "Tapat\u00edo",
           "logo": "https://media.api-sports.io/football/teams/14278.png",
-          "winner": null
+          "winner": true
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 0, "away": 3 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 0, "away": 3 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -556,13 +510,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T01:30:00+00:00",
         "timestamp": 1710293400,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710293400, "second": 1710297000 },
         "venue": {
           "id": 1210,
           "name": "Estadio Agust\u00edn Muquita S\u00e1nchez",
           "city": "La Chorrera"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 304,
@@ -578,19 +532,19 @@
           "id": 2890,
           "name": "Independiente de La Chorrera",
           "logo": "https://media.api-sports.io/football/teams/2890.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 2883,
           "name": "Plaza Amador",
           "logo": "https://media.api-sports.io/football/teams/2883.png",
-          "winner": null
+          "winner": true
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 0, "away": 1 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 0, "away": 1 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -598,13 +552,13 @@
     {
       "fixture": {
         "id": 1177939,
-        "referee": null,
+        "referee": "Diego Haro, Peru",
         "timezone": "UTC",
         "date": "2024-03-13T01:30:00+00:00",
         "timestamp": 1710293400,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710293400, "second": 1710297000 },
         "venue": { "id": 1242, "name": "Estadio Monumental", "city": "Lima" },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 281,
@@ -620,19 +574,19 @@
           "id": 2540,
           "name": "Universitario",
           "logo": "https://media.api-sports.io/football/teams/2540.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 10013,
           "name": "Cusco",
           "logo": "https://media.api-sports.io/football/teams/10013.png",
-          "winner": null
+          "winner": false
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 1, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 1, "away": 0 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -640,17 +594,17 @@
     {
       "fixture": {
         "id": 1178675,
-        "referee": null,
+        "referee": "Ivan Arcides Barton Cisneros, El Salvador",
         "timezone": "UTC",
         "date": "2024-03-13T02:30:00+00:00",
         "timestamp": 1710297000,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710297000, "second": 1710300600 },
         "venue": {
           "id": null,
-          "name": "Estadio Universitario",
-          "city": "San Nicol\u00e1s de los Garza"
+          "name": "Estadio Universitario (UANL)",
+          "city": "Monterrey"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 16,
@@ -666,19 +620,19 @@
           "id": 2279,
           "name": "Tigres UANL",
           "logo": "https://media.api-sports.io/football/teams/2279.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 1598,
           "name": "Orlando City SC",
           "logo": "https://media.api-sports.io/football/teams/1598.png",
-          "winner": null
+          "winner": false
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 4, "away": 2 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 4, "away": 2 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -686,17 +640,17 @@
     {
       "fixture": {
         "id": 1152404,
-        "referee": null,
+        "referee": "J. Vizcarra Armenta",
         "timezone": "UTC",
         "date": "2024-03-13T03:05:00+00:00",
         "timestamp": 1710299100,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710299100, "second": 1710302700 },
         "venue": {
           "id": 1844,
           "name": "Estadio Ol\u00edmpico Carlos Iturralde Rivero",
           "city": "M\u00e9rida"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 263,
@@ -712,19 +666,19 @@
           "id": 2311,
           "name": "Venados FC",
           "logo": "https://media.api-sports.io/football/teams/2311.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 2300,
           "name": "Alebrijes de Oaxaca",
           "logo": "https://media.api-sports.io/football/teams/2300.png",
-          "winner": null
+          "winner": false
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 2, "away": 1 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 2, "away": 1 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -736,13 +690,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T06:00:00+00:00",
         "timestamp": 1710309600,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710309600, "second": 1710313200 },
         "venue": {
           "id": 2121,
           "name": "Stade Pater Te Hono Nui",
           "city": "Papeete"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 27,
@@ -767,10 +721,10 @@
           "winner": null
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 1, "away": 1 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 1, "away": 1 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -828,13 +782,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T08:00:00+00:00",
         "timestamp": 1710316800,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710316800, "second": 1710320400 },
         "venue": {
           "id": null,
           "name": "Nanzih Football Stadium",
-          "city": "Gaoxiong"
+          "city": "Kaohsiung"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 18,
@@ -850,19 +804,19 @@
           "id": 12542,
           "name": "Taichung Futuro",
           "logo": "https://media.api-sports.io/football/teams/12542.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 12234,
           "name": "Abdish-Ata",
           "logo": "https://media.api-sports.io/football/teams/12234.png",
-          "winner": null
+          "winner": true
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 1, "away": 3 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 1, "away": 3 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -874,13 +828,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T08:00:00+00:00",
         "timestamp": 1710316800,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710316800, "second": 1710320400 },
         "venue": {
           "id": null,
           "name": "BIIK Futbol'noye Pole",
           "city": "Shymkent"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 498,
@@ -896,19 +850,19 @@
           "id": 16609,
           "name": "SD Family",
           "logo": "https://media.api-sports.io/football/teams/16609.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 21010,
           "name": "Ulytau",
           "logo": "https://media.api-sports.io/football/teams/21010.png",
-          "winner": null
+          "winner": false
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 2, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 2, "away": 0 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -920,13 +874,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T08:00:00+00:00",
         "timestamp": 1710316800,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710316800, "second": 1710320400 },
         "venue": {
           "id": null,
           "name": "Do\u2019stlik Stadion",
           "city": "Tashkent"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 1070,
@@ -942,19 +896,19 @@
           "id": 23206,
           "name": "Korea DPR U20",
           "logo": "https://media.api-sports.io/football/teams/23206.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 19087,
           "name": "Korea Republic U20 W",
           "logo": "https://media.api-sports.io/football/teams/19087.png",
-          "winner": null
+          "winner": false
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 3, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 3, "away": 0 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -1012,9 +966,9 @@
         "timezone": "UTC",
         "date": "2024-03-13T09:00:00+00:00",
         "timestamp": 1710320400,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710320400, "second": 1710324000 },
         "venue": { "id": 3303, "name": "Iwagin Stadium", "city": "Morioka" },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
       },
       "league": {
         "id": 101,
@@ -1030,19 +984,19 @@
           "id": 4321,
           "name": "Grulla Morioka",
           "logo": "https://media.api-sports.io/football/teams/4321.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 315,
           "name": "Tochigi SC",
           "logo": "https://media.api-sports.io/football/teams/315.png",
-          "winner": null
+          "winner": false
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 1, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
+        "fulltime": { "home": 1, "away": 0 },
         "extratime": { "home": null, "away": null },
         "penalty": { "home": null, "away": null }
       }
@@ -1054,13 +1008,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T09:00:00+00:00",
         "timestamp": 1710320400,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710320400, "second": 1710324000 },
         "venue": {
           "id": 12548,
           "name": "Satun Municipal Stadium",
           "city": "Satun"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Second Half", "short": "2H", "elapsed": 90 }
       },
       "league": {
         "id": 898,
@@ -1076,16 +1030,16 @@
           "id": 22348,
           "name": "Satun",
           "logo": "https://media.api-sports.io/football/teams/22348.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 2786,
           "name": "Muangthong United",
           "logo": "https://media.api-sports.io/football/teams/2786.png",
-          "winner": null
+          "winner": true
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 1, "away": 3 },
       "score": {
         "halftime": { "home": null, "away": null },
         "fulltime": { "home": null, "away": null },
@@ -1100,13 +1054,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T09:30:00+00:00",
         "timestamp": 1710322200,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710322200, "second": 1710325800 },
         "venue": {
           "id": 11578,
           "name": "Prifoods Stadium",
           "city": "Hachinohe"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Second Half", "short": "2H", "elapsed": 67 }
       },
       "league": {
         "id": 101,
@@ -1131,7 +1085,7 @@
           "winner": null
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 0, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
         "fulltime": { "home": null, "away": null },
@@ -1146,13 +1100,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T10:00:00+00:00",
         "timestamp": 1710324000,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710324000, "second": null },
         "venue": {
           "id": null,
           "name": "S\u00e2n v\u1eadn \u0111\u1ed9ng Long An",
           "city": "Tan An"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Halftime", "short": "HT", "elapsed": 45 }
       },
       "league": {
         "id": 341,
@@ -1168,16 +1122,16 @@
           "id": 9165,
           "name": "Long An",
           "logo": "https://media.api-sports.io/football/teams/9165.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 3668,
           "name": "Binh Duong",
           "logo": "https://media.api-sports.io/football/teams/3668.png",
-          "winner": null
+          "winner": true
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 0, "away": 1 },
       "score": {
         "halftime": { "home": null, "away": null },
         "fulltime": { "home": null, "away": null },
@@ -1192,9 +1146,9 @@
         "timezone": "UTC",
         "date": "2024-03-13T10:00:00+00:00",
         "timestamp": 1710324000,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710324000, "second": null },
         "venue": { "id": null, "name": "Namdhari Stadium", "city": "Ludhiana" },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Halftime", "short": "HT", "elapsed": 45 }
       },
       "league": {
         "id": 324,
@@ -1219,7 +1173,7 @@
           "winner": null
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 0, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
         "fulltime": { "home": null, "away": null },
@@ -1234,13 +1188,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T10:00:00+00:00",
         "timestamp": 1710324000,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710324000, "second": null },
         "venue": {
           "id": 3304,
           "name": "Toyama Athletic Recreation Park Stadium",
           "city": "Toyama"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Halftime", "short": "HT", "elapsed": 45 }
       },
       "league": {
         "id": 101,
@@ -1265,7 +1219,7 @@
           "winner": null
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 0, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
         "fulltime": { "home": null, "away": null },
@@ -1280,9 +1234,9 @@
         "timezone": "UTC",
         "date": "2024-03-13T10:00:00+00:00",
         "timestamp": 1710324000,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710324000, "second": null },
         "venue": { "id": 958, "name": "Nagaragawa Stadium", "city": "Gifu" },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Halftime", "short": "HT", "elapsed": 45 }
       },
       "league": {
         "id": 101,
@@ -1307,7 +1261,7 @@
           "winner": null
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 0, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
         "fulltime": { "home": null, "away": null },
@@ -1322,13 +1276,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T10:00:00+00:00",
         "timestamp": 1710324000,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710324000, "second": null },
         "venue": {
           "id": 969,
           "name": "Sunpro Alwin Stadium",
           "city": "Matsumoto"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Halftime", "short": "HT", "elapsed": 45 }
       },
       "league": {
         "id": 101,
@@ -1344,16 +1298,16 @@
           "id": 304,
           "name": "Matsumoto Yamaga",
           "logo": "https://media.api-sports.io/football/teams/304.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 309,
           "name": "Renofa Yamaguchi",
           "logo": "https://media.api-sports.io/football/teams/309.png",
-          "winner": null
+          "winner": false
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 1, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
         "fulltime": { "home": null, "away": null },
@@ -1368,13 +1322,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T10:00:00+00:00",
         "timestamp": 1710324000,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710324000, "second": null },
         "venue": {
           "id": 20561,
           "name": "Hanazono Rugby Stadium",
           "city": "Higashiosaka"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Halftime", "short": "HT", "elapsed": 45 }
       },
       "league": {
         "id": 101,
@@ -1399,7 +1353,7 @@
           "winner": null
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 0, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
         "fulltime": { "home": null, "away": null },
@@ -1414,9 +1368,9 @@
         "timezone": "UTC",
         "date": "2024-03-13T10:00:00+00:00",
         "timestamp": 1710324000,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710324000, "second": null },
         "venue": { "id": 3301, "name": "TOHO Stadium", "city": "Fukushima" },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Halftime", "short": "HT", "elapsed": 45 }
       },
       "league": {
         "id": 101,
@@ -1432,16 +1386,16 @@
           "id": 4318,
           "name": "Fukushima United",
           "logo": "https://media.api-sports.io/football/teams/4318.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 314,
           "name": "Roasso Kumamoto",
           "logo": "https://media.api-sports.io/football/teams/314.png",
-          "winner": null
+          "winner": true
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 0, "away": 2 },
       "score": {
         "halftime": { "home": null, "away": null },
         "fulltime": { "home": null, "away": null },
@@ -1456,13 +1410,13 @@
         "timezone": "UTC",
         "date": "2024-03-13T10:00:00+00:00",
         "timestamp": 1710324000,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710324000, "second": null },
         "venue": {
           "id": 3305,
           "name": "Minami Nagano Sports Park Stadium",
           "city": "Nagano"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Halftime", "short": "HT", "elapsed": 45 }
       },
       "league": {
         "id": 101,
@@ -1478,16 +1432,16 @@
           "id": 4323,
           "name": "Parceiro Nagano",
           "logo": "https://media.api-sports.io/football/teams/4323.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 299,
           "name": "Tokushima Vortis",
           "logo": "https://media.api-sports.io/football/teams/299.png",
-          "winner": null
+          "winner": false
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 3, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
         "fulltime": { "home": null, "away": null },
@@ -1498,13 +1452,13 @@
     {
       "fixture": {
         "id": 1175672,
-        "referee": null,
+        "referee": "Muhammad Nazmi Bin Nasaruddin, Malaysia",
         "timezone": "UTC",
         "date": "2024-03-13T10:00:00+00:00",
         "timestamp": 1710324000,
-        "periods": { "first": null, "second": null },
+        "periods": { "first": 1710324000, "second": null },
         "venue": { "id": 985, "name": "Nissan Stadium", "city": "Yokohama" },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": { "long": "Halftime", "short": "HT", "elapsed": 45 }
       },
       "league": {
         "id": 17,
@@ -1529,7 +1483,7 @@
           "winner": null
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 0, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
         "fulltime": { "home": null, "away": null },
@@ -2158,6 +2112,52 @@
           "id": 370,
           "name": "Sirius",
           "logo": "https://media.api-sports.io/football/teams/370.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1170940,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-13T12:00:00+00:00",
+        "timestamp": 1710331200,
+        "periods": { "first": null, "second": null },
+        "venue": {
+          "id": 18963,
+          "name": "Stadion Hadzhi Dimitar",
+          "city": "Sliven"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 177,
+        "name": "Third League - Southeast",
+        "country": "Bulgaria",
+        "logo": "https://media.api-sports.io/football/leagues/177.png",
+        "flag": "https://media.api-sports.io/flags/bg.svg",
+        "season": 2023,
+        "round": "Southeast - 24"
+      },
+      "teams": {
+        "home": {
+          "id": 19828,
+          "name": "FK Sliven",
+          "logo": "https://media.api-sports.io/football/teams/19828.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1412,
+          "name": "Sozopol",
+          "logo": "https://media.api-sports.io/football/teams/1412.png",
           "winner": null
         }
       },
@@ -2807,6 +2807,52 @@
     },
     {
       "fixture": {
+        "id": 1169404,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-13T13:00:00+00:00",
+        "timestamp": 1710334800,
+        "periods": { "first": null, "second": null },
+        "venue": {
+          "id": 4742,
+          "name": "Stade du TP Mazembe",
+          "city": "Lubumbashi"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 424,
+        "name": "Ligue 1",
+        "country": "Congo-DR",
+        "logo": "https://media.api-sports.io/football/leagues/424.png",
+        "flag": "https://media.api-sports.io/flags/cg.svg",
+        "season": 2023,
+        "round": "Championship Round - 2"
+      },
+      "teams": {
+        "home": {
+          "id": 6435,
+          "name": "TP Mazembe",
+          "logo": "https://media.api-sports.io/football/teams/6435.png",
+          "winner": null
+        },
+        "away": {
+          "id": 8064,
+          "name": "Maniema Union",
+          "logo": "https://media.api-sports.io/football/teams/8064.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
         "id": 1030202,
         "referee": null,
         "timezone": "UTC",
@@ -2906,7 +2952,11 @@
           "name": "Stadio Comunale Attilio Bravi",
           "city": "Bra"
         },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+        "status": {
+          "long": "Match Suspended",
+          "short": "SUSP",
+          "elapsed": null
+        }
       },
       "league": {
         "id": 426,
@@ -2931,7 +2981,7 @@
           "winner": null
         }
       },
-      "goals": { "home": null, "away": null },
+      "goals": { "home": 0, "away": 0 },
       "score": {
         "halftime": { "home": null, "away": null },
         "fulltime": { "home": null, "away": null },
@@ -2974,52 +3024,6 @@
           "id": 3469,
           "name": "Real Kashmir",
           "logo": "https://media.api-sports.io/football/teams/3469.png",
-          "winner": null
-        }
-      },
-      "goals": { "home": null, "away": null },
-      "score": {
-        "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
-        "extratime": { "home": null, "away": null },
-        "penalty": { "home": null, "away": null }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1169404,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2024-03-13T13:30:00+00:00",
-        "timestamp": 1710336600,
-        "periods": { "first": null, "second": null },
-        "venue": {
-          "id": 4742,
-          "name": "Stade du TP Mazembe",
-          "city": "Lubumbashi"
-        },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
-      },
-      "league": {
-        "id": 424,
-        "name": "Ligue 1",
-        "country": "Congo-DR",
-        "logo": "https://media.api-sports.io/football/leagues/424.png",
-        "flag": "https://media.api-sports.io/flags/cg.svg",
-        "season": 2023,
-        "round": "Championship Round - 2"
-      },
-      "teams": {
-        "home": {
-          "id": 6435,
-          "name": "TP Mazembe",
-          "logo": "https://media.api-sports.io/football/teams/6435.png",
-          "winner": null
-        },
-        "away": {
-          "id": 8064,
-          "name": "Maniema Union",
-          "logo": "https://media.api-sports.io/football/teams/8064.png",
           "winner": null
         }
       },
@@ -3626,8 +3630,8 @@
         "timestamp": 1710340200,
         "periods": { "first": null, "second": null },
         "venue": {
-          "id": 4743,
-          "name": "Stade Tata Rapha\u00ebl",
+          "id": 391,
+          "name": "Stade des Martyrs de la Pentec\u00f4te",
           "city": "Kinshasa"
         },
         "status": { "long": "Not Started", "short": "NS", "elapsed": null }
@@ -3698,6 +3702,186 @@
           "id": 7529,
           "name": "Jedinstvo Biha\u0107",
           "logo": "https://media.api-sports.io/football/teams/7529.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1104610,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-13T15:00:00+00:00",
+        "timestamp": 1710342000,
+        "periods": { "first": null, "second": null },
+        "venue": {
+          "id": 7802,
+          "name": "West Africa Football Academy Sports Complex",
+          "city": "Sogakope"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 570,
+        "name": "Premier League",
+        "country": "Ghana",
+        "logo": "https://media.api-sports.io/football/leagues/570.png",
+        "flag": "https://media.api-sports.io/flags/gh.svg",
+        "season": 2023,
+        "round": "Regular Season - 21"
+      },
+      "teams": {
+        "home": {
+          "id": 12248,
+          "name": "Great Olympics",
+          "logo": "https://media.api-sports.io/football/teams/12248.png",
+          "winner": null
+        },
+        "away": {
+          "id": 12251,
+          "name": "Karela",
+          "logo": "https://media.api-sports.io/football/teams/12251.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1104612,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-13T15:00:00+00:00",
+        "timestamp": 1710342000,
+        "periods": { "first": null, "second": null },
+        "venue": {
+          "id": 19549,
+          "name": "Nsenkyire Sports Arena",
+          "city": "Samreboi"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 570,
+        "name": "Premier League",
+        "country": "Ghana",
+        "logo": "https://media.api-sports.io/football/leagues/570.png",
+        "flag": "https://media.api-sports.io/flags/gh.svg",
+        "season": 2023,
+        "round": "Regular Season - 21"
+      },
+      "teams": {
+        "home": {
+          "id": 20022,
+          "name": "Samartex",
+          "logo": "https://media.api-sports.io/football/teams/20022.png",
+          "winner": null
+        },
+        "away": {
+          "id": 20021,
+          "name": "Nsoatreman",
+          "logo": "https://media.api-sports.io/football/teams/20021.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1104614,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-13T15:00:00+00:00",
+        "timestamp": 1710342000,
+        "periods": { "first": null, "second": null },
+        "venue": { "id": 7794, "name": "Golden City Park", "city": "Berekum" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 570,
+        "name": "Premier League",
+        "country": "Ghana",
+        "logo": "https://media.api-sports.io/football/leagues/570.png",
+        "flag": "https://media.api-sports.io/flags/gh.svg",
+        "season": 2023,
+        "round": "Regular Season - 21"
+      },
+      "teams": {
+        "home": {
+          "id": 12244,
+          "name": "Berekum Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/12244.png",
+          "winner": null
+        },
+        "away": {
+          "id": 8079,
+          "name": "Aduana Stars",
+          "logo": "https://media.api-sports.io/football/teams/8079.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1137077,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-13T15:00:00+00:00",
+        "timestamp": 1710342000,
+        "periods": { "first": null, "second": null },
+        "venue": {
+          "id": 3927,
+          "name": "Akure Township Stadium",
+          "city": "Akure"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 399,
+        "name": "NPFL",
+        "country": "Nigeria",
+        "logo": "https://media.api-sports.io/football/leagues/399.png",
+        "flag": "https://media.api-sports.io/flags/ng.svg",
+        "season": 2024,
+        "round": "Regular Season - 25"
+      },
+      "teams": {
+        "home": {
+          "id": 5193,
+          "name": "Sunshine Stars",
+          "logo": "https://media.api-sports.io/football/teams/5193.png",
+          "winner": null
+        },
+        "away": {
+          "id": 5184,
+          "name": "Katsina United",
+          "logo": "https://media.api-sports.io/football/teams/5184.png",
           "winner": null
         }
       },
@@ -3828,6 +4012,52 @@
           "id": 5176,
           "name": "Enugu Rangers",
           "logo": "https://media.api-sports.io/football/teams/5176.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1137081,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-13T15:00:00+00:00",
+        "timestamp": 1710342000,
+        "periods": { "first": null, "second": null },
+        "venue": {
+          "id": 3919,
+          "name": "Kwara Sports Complex",
+          "city": "Ilorin"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 399,
+        "name": "NPFL",
+        "country": "Nigeria",
+        "logo": "https://media.api-sports.io/football/leagues/399.png",
+        "flag": "https://media.api-sports.io/flags/ng.svg",
+        "season": 2024,
+        "round": "Regular Season - 25"
+      },
+      "teams": {
+        "home": {
+          "id": 5185,
+          "name": "Kwara United",
+          "logo": "https://media.api-sports.io/football/teams/5185.png",
+          "winner": null
+        },
+        "away": {
+          "id": 17445,
+          "name": "Bayelsa United",
+          "logo": "https://media.api-sports.io/football/teams/17445.png",
           "winner": null
         }
       },
@@ -4478,7 +4708,7 @@
     {
       "fixture": {
         "id": 1178784,
-        "referee": null,
+        "referee": "S. Jablonski",
         "timezone": "UTC",
         "date": "2024-03-13T15:00:00+00:00",
         "timestamp": 1710342000,
@@ -4694,52 +4924,6 @@
           "id": 2739,
           "name": "Esteghlal Khuzestan",
           "logo": "https://media.api-sports.io/football/teams/2739.png",
-          "winner": null
-        }
-      },
-      "goals": { "home": null, "away": null },
-      "score": {
-        "halftime": { "home": null, "away": null },
-        "fulltime": { "home": null, "away": null },
-        "extratime": { "home": null, "away": null },
-        "penalty": { "home": null, "away": null }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1137077,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2024-03-13T15:30:00+00:00",
-        "timestamp": 1710343800,
-        "periods": { "first": null, "second": null },
-        "venue": {
-          "id": 3927,
-          "name": "Akure Township Stadium",
-          "city": "Akure"
-        },
-        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
-      },
-      "league": {
-        "id": 399,
-        "name": "NPFL",
-        "country": "Nigeria",
-        "logo": "https://media.api-sports.io/football/leagues/399.png",
-        "flag": "https://media.api-sports.io/flags/ng.svg",
-        "season": 2024,
-        "round": "Regular Season - 25"
-      },
-      "teams": {
-        "home": {
-          "id": 5193,
-          "name": "Sunshine Stars",
-          "logo": "https://media.api-sports.io/football/teams/5193.png",
-          "winner": null
-        },
-        "away": {
-          "id": 5184,
-          "name": "Katsina United",
-          "logo": "https://media.api-sports.io/football/teams/5184.png",
           "winner": null
         }
       },
@@ -5516,7 +5700,7 @@
     {
       "fixture": {
         "id": 1178781,
-        "referee": null,
+        "referee": "G. Kikacheishvili",
         "timezone": "UTC",
         "date": "2024-03-13T17:00:00+00:00",
         "timestamp": 1710349200,
@@ -6177,6 +6361,48 @@
     },
     {
       "fixture": {
+        "id": 1104618,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-13T18:00:00+00:00",
+        "timestamp": 1710352800,
+        "periods": { "first": null, "second": null },
+        "venue": { "id": 4727, "name": "Baba Yara Stadium", "city": "Kumasi" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 570,
+        "name": "Premier League",
+        "country": "Ghana",
+        "logo": "https://media.api-sports.io/football/leagues/570.png",
+        "flag": "https://media.api-sports.io/flags/gh.svg",
+        "season": 2023,
+        "round": "Regular Season - 21"
+      },
+      "teams": {
+        "home": {
+          "id": 6411,
+          "name": "Asante Kotoko",
+          "logo": "https://media.api-sports.io/football/teams/6411.png",
+          "winner": null
+        },
+        "away": {
+          "id": 17992,
+          "name": "Accra Lions",
+          "logo": "https://media.api-sports.io/football/teams/17992.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
         "id": 1106054,
         "referee": "Hugo Cerqueira",
         "timezone": "UTC",
@@ -6453,6 +6679,52 @@
     },
     {
       "fixture": {
+        "id": 1183958,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-13T18:00:00+00:00",
+        "timestamp": 1710352800,
+        "periods": { "first": null, "second": null },
+        "venue": {
+          "id": null,
+          "name": "Estadio Carlos Fonseca Amador",
+          "city": "Matagalpa"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 565,
+        "name": "Liga Primera U20",
+        "country": "Nicaragua",
+        "logo": "https://media.api-sports.io/football/leagues/565.png",
+        "flag": "https://media.api-sports.io/flags/ni.svg",
+        "season": 2024,
+        "round": "Clausura - 9"
+      },
+      "teams": {
+        "home": {
+          "id": 17148,
+          "name": "H&H Export U20",
+          "logo": "https://media.api-sports.io/football/teams/17148.png",
+          "winner": null
+        },
+        "away": {
+          "id": 17149,
+          "name": "UNAN Managua U20",
+          "logo": "https://media.api-sports.io/football/teams/17149.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
         "id": 1170198,
         "referee": null,
         "timezone": "UTC",
@@ -6691,8 +6963,8 @@
         "periods": { "first": null, "second": null },
         "venue": {
           "id": 6955,
-          "name": "Estadio Virgen de la Corona",
-          "city": "Almud\u00e9var"
+          "name": "Campo de F\u00fatbol Municipal Zuera",
+          "city": "Zuera"
         },
         "status": { "long": "Not Started", "short": "NS", "elapsed": null }
       },
@@ -7193,7 +7465,7 @@
         "logo": "https://media.api-sports.io/football/leagues/703.png",
         "flag": "https://media.api-sports.io/flags/gb.svg",
         "season": 2023,
-        "round": "Regular Season - 21"
+        "round": "Regular Season - 22"
       },
       "teams": {
         "home": {
@@ -8647,6 +8919,52 @@
     },
     {
       "fixture": {
+        "id": 1184009,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-13T20:00:00+00:00",
+        "timestamp": 1710360000,
+        "periods": { "first": null, "second": null },
+        "venue": {
+          "id": 3375,
+          "name": "Parc Vincent",
+          "city": "Gona\u00efves"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 379,
+        "name": "Ligue Ha\u00eftienne",
+        "country": "Haiti",
+        "logo": "https://media.api-sports.io/football/leagues/379.png",
+        "flag": "https://media.api-sports.io/flags/ht.svg",
+        "season": 2024,
+        "round": "Regular Season - 2"
+      },
+      "teams": {
+        "home": {
+          "id": 4437,
+          "name": "Racing des G\u00f4na\u00efves",
+          "logo": "https://media.api-sports.io/football/teams/4437.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4429,
+          "name": "Capoise",
+          "logo": "https://media.api-sports.io/football/teams/4429.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
         "id": 1172711,
         "referee": "F. Letexier",
         "timezone": "UTC",
@@ -9099,6 +9417,52 @@
     },
     {
       "fixture": {
+        "id": 1183959,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-13T21:00:00+00:00",
+        "timestamp": 1710363600,
+        "periods": { "first": null, "second": null },
+        "venue": {
+          "id": 3498,
+          "name": "Estadio Cacique Diriang\u00e9n",
+          "city": "Diriamba"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 565,
+        "name": "Liga Primera U20",
+        "country": "Nicaragua",
+        "logo": "https://media.api-sports.io/football/leagues/565.png",
+        "flag": "https://media.api-sports.io/flags/ni.svg",
+        "season": 2024,
+        "round": "Clausura - 9"
+      },
+      "teams": {
+        "home": {
+          "id": 12167,
+          "name": "Diriang\u00e9n U20",
+          "logo": "https://media.api-sports.io/football/teams/12167.png",
+          "winner": null
+        },
+        "away": {
+          "id": 12171,
+          "name": "Municipal Jalapa U20",
+          "logo": "https://media.api-sports.io/football/teams/12171.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
         "id": 1148137,
         "referee": null,
         "timezone": "UTC",
@@ -9280,7 +9644,7 @@
     {
       "fixture": {
         "id": 1174745,
-        "referee": null,
+        "referee": "J. Luna",
         "timezone": "UTC",
         "date": "2024-03-13T22:00:00+00:00",
         "timestamp": 1710367200,
@@ -9450,6 +9814,94 @@
           "id": 1210,
           "name": "Murici Fc",
           "logo": "https://media.api-sports.io/football/teams/1210.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1183960,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-13T22:00:00+00:00",
+        "timestamp": 1710367200,
+        "periods": { "first": null, "second": null },
+        "venue": {
+          "id": null,
+          "name": "Estadio Nacional de F\u00fatbol",
+          "city": "Managua"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 565,
+        "name": "Liga Primera U20",
+        "country": "Nicaragua",
+        "logo": "https://media.api-sports.io/football/leagues/565.png",
+        "flag": "https://media.api-sports.io/flags/ni.svg",
+        "season": 2024,
+        "round": "Clausura - 9"
+      },
+      "teams": {
+        "home": {
+          "id": 22027,
+          "name": "Org\u00e1nica Masachapa U20",
+          "logo": "https://media.api-sports.io/football/teams/22027.png",
+          "winner": null
+        },
+        "away": {
+          "id": 12170,
+          "name": "Managua U20",
+          "logo": "https://media.api-sports.io/football/teams/12170.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1184010,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-13T22:00:00+00:00",
+        "timestamp": 1710367200,
+        "periods": { "first": null, "second": null },
+        "venue": { "id": 3370, "name": "Parc Levelt", "city": "Saint-Marc" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 379,
+        "name": "Ligue Ha\u00eftienne",
+        "country": "Haiti",
+        "logo": "https://media.api-sports.io/football/leagues/379.png",
+        "flag": "https://media.api-sports.io/flags/ht.svg",
+        "season": 2024,
+        "round": "Regular Season - 2"
+      },
+      "teams": {
+        "home": {
+          "id": 14272,
+          "name": "Rivartibonitienne",
+          "logo": "https://media.api-sports.io/football/teams/14272.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4428,
+          "name": "Baltimore",
+          "logo": "https://media.api-sports.io/football/teams/4428.png",
           "winner": null
         }
       },

@@ -1,6 +1,5 @@
 import asyncio
 import json
-import os
 from datetime import datetime
 
 from src.db_manager import Table
@@ -9,21 +8,20 @@ from src.telegram_bot import TelegramBot
 
 class MatchNotifier:
     def __init__(self):
-        with open('data.json') as f:
-            self.data = json.load(f)
         self.table = Table()
         self.bot = TelegramBot()
-
         self.previous_statuses = {}
 
     def notify_matches(self):
+        with open('data.json') as f:
+            data = json.load(f)
         current_date = datetime.now()
         formatted_date = current_date.strftime('%H:%M:%S')
         users = self.table.select_distinct_user() # All users
         for user in users:
             teams = self.table.select_from_table(user)
             for team in teams:
-                for match in self.data['response']:
+                for match in data['response']:
                     home_team = match['teams']['home']['name']
                     away_team = match['teams']['away']['name']
                     status = match['fixture']['status']['short']
