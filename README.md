@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This documentation provides information about Telegram-Match-Notifier-Bot, a telegram bot designed to inform users about ongoing match statuses retrieved from an API. Telegram-Match-Notifier-Bot retrieves data from the API and notifies users whether the match is currently at halftime or has reached fulltime.
+This documentation provides information about Telegram-Match-Notifier-Bot, a telegram bot designed to inform users about ongoing match statuses retrieved from an API. Telegram-Match-Notifier-Bot retrieves data from the API and notifies users whether the match is currently at halftime or has reached fulltime.You can access the match notifier bot via https://t.me/result_notification_bot
 
 ---
 
@@ -47,7 +47,7 @@ docker-compose up --build
 
 ## Usage
 
-Users can find the telegram bot by searching @result_notification_bot in Telegram. After starting the chat use /commands to see all the commands that can be used.
+Users can find the telegram bot by searching [@result_notification_bot](https://t.me/result_notification_bot) in Telegram. After starting the chat use /commands to see all the commands that can be used.
 
 ### Commands
 
